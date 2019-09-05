@@ -51,6 +51,7 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
+# 承接自定义设置的中间件 +--
 DOWNLOADER_MIDDLEWARES = {
    'scrapydownloadertest.middlewares.RandomUserAgentMiddleware': 543,
 }
